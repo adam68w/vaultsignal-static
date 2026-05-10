@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">Batman #1 reference cover preview</title>
+  <desc id="desc">Local visual reference asset only. Not evidence, proof, authentication, grading, or ownership.</desc>
+  <rect width="360" height="520" rx="26" fill="#141923"/>
+  <rect x="22" y="22" width="316" height="476" rx="20" fill="#f4c542"/>
+  <path d="M42 130h276v190H42z" fill="#1d2230"/>
+  <path d="M78 241c29-45 62-53 102-14 40-39 73-31 102 14-46-10-78 3-102 40-24-37-56-50-102-40z" fill="#05070b"/>
+  <text x="180" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="44" font-weight="700" fill="#141923">BATMAN</text>
+  <text x="180" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#141923">#1</text>
+  <text x="180" y="386" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#141923">DC · GOLDEN AGE</text>
+  <text x="180" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#141923">Reference cover</text>
+  <text x="180" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#141923">Visual reference only</text>
+</svg>

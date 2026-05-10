@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Green Lantern #76 reference information card</title>
+  <desc id="desc">Local reference information artwork for Green Lantern issue 76.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2fae5c"/>
+      <stop offset="56%" stop-color="#153926"/>
+      <stop offset="100%" stop-color="#0c1611"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1040" rx="38" fill="url(#bg)"/>
+  <rect x="28" y="28" width="664" height="984" rx="30" fill="none" stroke="rgba(255,255,255,0.16)"/>
+  <text x="64" y="118" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">DC</text>
+  <text x="592" y="118" fill="#dffae8" font-family="Arial, sans-serif" font-size="28" text-anchor="end">1970</text>
+  <text x="64" y="314" fill="#ffffff" font-family="Arial, sans-serif" font-size="74" font-weight="900">GREEN</text>
+  <text x="64" y="392" fill="#ffffff" font-family="Arial, sans-serif" font-size="74" font-weight="900">LANTERN</text>
+  <rect x="64" y="448" width="214" height="62" rx="14" fill="rgba(255,255,255,0.13)"/>
+  <text x="171" y="489" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">ISSUE #76</text>
+  <text x="64" y="866" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">REFERENCE INFORMATION</text>
+  <text x="64" y="914" fill="#e0f9e8" font-family="Arial, sans-serif" font-size="24">Local only / Add your cover photo when ready</text>
+</svg>

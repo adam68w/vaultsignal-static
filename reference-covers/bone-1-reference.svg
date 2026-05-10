@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Bone #1 reference information card</title>
+  <desc id="desc">Local reference information artwork for Bone issue 1.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3f0e7"/>
+      <stop offset="56%" stop-color="#d8d0c3"/>
+      <stop offset="100%" stop-color="#5a5248"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1040" rx="38" fill="url(#bg)"/>
+  <rect x="28" y="28" width="664" height="984" rx="30" fill="none" stroke="rgba(49,44,38,0.18)"/>
+  <text x="64" y="118" fill="#312c26" font-family="Arial, sans-serif" font-size="30" font-weight="700">CARTOON BOOKS</text>
+  <text x="592" y="118" fill="#5a5248" font-family="Arial, sans-serif" font-size="28" text-anchor="end">1991</text>
+  <text x="64" y="330" fill="#201d19" font-family="Arial, sans-serif" font-size="108" font-weight="900">BONE</text>
+  <rect x="64" y="438" width="196" height="62" rx="14" fill="rgba(49,44,38,0.1)"/>
+  <text x="162" y="479" fill="#201d19" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">ISSUE #1</text>
+  <text x="64" y="866" fill="#201d19" font-family="Arial, sans-serif" font-size="32" font-weight="700">REFERENCE INFORMATION</text>
+  <text x="64" y="914" fill="#433b33" font-family="Arial, sans-serif" font-size="24">Local only / Add your cover photo when ready</text>
+</svg>

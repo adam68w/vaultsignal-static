@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">Superman #4 reference cover preview</title>
+  <desc id="desc">Local visual reference asset only. Not evidence, proof, authentication, grading, or ownership.</desc>
+  <rect width="360" height="520" rx="26" fill="#0b3c8c"/>
+  <rect x="24" y="24" width="312" height="472" rx="22" fill="#ffdf4d"/>
+  <path d="M180 138l90 48-22 130-68 76-68-76-22-130z" fill="#d81f2a"/>
+  <path d="M180 174l46 25-11 73-35 41-35-41-11-73z" fill="#ffdf4d"/>
+  <text x="180" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="39" font-weight="700" fill="#0b3c8c">SUPERMAN</text>
+  <text x="180" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0b3c8c">#4</text>
+  <text x="180" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#0b3c8c">Reference cover</text>
+  <text x="180" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0b3c8c">Visual reference only</text>
+</svg>

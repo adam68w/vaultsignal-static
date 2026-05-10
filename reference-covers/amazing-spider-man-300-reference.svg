@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Amazing Spider-Man #300 reference information card</title>
+  <desc id="desc">Local reference information artwork for Amazing Spider-Man issue 300.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d93a36"/>
+      <stop offset="60%" stop-color="#1d2854"/>
+      <stop offset="100%" stop-color="#0f1222"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1040" rx="38" fill="url(#bg)"/>
+  <rect x="28" y="28" width="664" height="984" rx="30" fill="none" stroke="rgba(255,255,255,0.16)"/>
+  <text x="64" y="118" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">MARVEL</text>
+  <text x="592" y="118" fill="#f8d9d8" font-family="Arial, sans-serif" font-size="28" text-anchor="end">1988</text>
+  <text x="64" y="300" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="900">AMAZING</text>
+  <text x="64" y="374" fill="#ffffff" font-family="Arial, sans-serif" font-size="58" font-weight="900">SPIDER-MAN</text>
+  <rect x="64" y="438" width="236" height="62" rx="14" fill="rgba(255,255,255,0.12)"/>
+  <text x="182" y="479" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">ISSUE #300</text>
+  <text x="64" y="866" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">REFERENCE INFORMATION</text>
+  <text x="64" y="914" fill="#d8e6ff" font-family="Arial, sans-serif" font-size="24">Local only / Add your cover photo when ready</text>
+</svg>

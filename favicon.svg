@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>VaultSignal</title>
+  <defs>
+    <linearGradient id="vaultsignal-green" x1="8" x2="56" y1="8" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#70f0b5" />
+      <stop offset="1" stop-color="#9af6cf" />
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="52" height="52" rx="16" fill="url(#vaultsignal-green)" />
+  <path d="M20 22h7l5 14 5-14h7L35 46h-6L20 22Z" fill="#082012" />
+</svg>

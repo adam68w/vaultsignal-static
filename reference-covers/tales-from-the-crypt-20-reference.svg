@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Tales from the Crypt #20 reference information card</title>
+  <desc id="desc">Local reference information artwork for Tales from the Crypt issue 20.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8efe4"/>
+      <stop offset="58%" stop-color="#aebc96"/>
+      <stop offset="100%" stop-color="#334430"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1040" rx="38" fill="url(#bg)"/>
+  <rect x="28" y="28" width="664" height="984" rx="30" fill="none" stroke="rgba(42,62,34,0.18)"/>
+  <text x="64" y="118" fill="#334430" font-family="Arial, sans-serif" font-size="30" font-weight="700">EC</text>
+  <text x="592" y="118" fill="#496046" font-family="Arial, sans-serif" font-size="28" text-anchor="end">1950</text>
+  <text x="64" y="292" fill="#243522" font-family="Arial, sans-serif" font-size="64" font-weight="900">TALES FROM</text>
+  <text x="64" y="370" fill="#243522" font-family="Arial, sans-serif" font-size="64" font-weight="900">THE CRYPT</text>
+  <rect x="64" y="446" width="218" height="62" rx="14" fill="rgba(42,62,34,0.12)"/>
+  <text x="173" y="487" fill="#243522" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">ISSUE #20</text>
+  <text x="64" y="866" fill="#243522" font-family="Arial, sans-serif" font-size="32" font-weight="700">REFERENCE INFORMATION</text>
+  <text x="64" y="914" fill="#334430" font-family="Arial, sans-serif" font-size="24">Local only / Add your cover photo when ready</text>
+</svg>

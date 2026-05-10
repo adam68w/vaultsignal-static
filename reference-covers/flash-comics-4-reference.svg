@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">Flash Comics #4 reference cover preview</title>
+  <desc id="desc">Local visual reference asset only. Not evidence, proof, authentication, grading, or ownership.</desc>
+  <rect width="360" height="520" rx="26" fill="#811a1a"/>
+  <rect x="24" y="24" width="312" height="472" rx="22" fill="#f9e35f"/>
+  <path d="M70 150h126l-42 86h82L120 390l38-108H84z" fill="#c7252c"/>
+  <text x="180" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#811a1a">FLASH</text>
+  <text x="180" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="25" font-weight="700" fill="#811a1a">COMICS #4</text>
+  <text x="180" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#811a1a">Reference cover</text>
+  <text x="180" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#811a1a">Visual reference only</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">Whiz Comics #4 reference cover preview</title>
+  <desc id="desc">Local visual reference asset only. Not evidence, proof, authentication, grading, or ownership.</desc>
+  <rect width="360" height="520" rx="26" fill="#742047"/>
+  <rect x="24" y="24" width="312" height="472" rx="22" fill="#ffd166"/>
+  <path d="M180 132l28 78 82 5-64 51 20 80-66-45-66 45 20-80-64-51 82-5z" fill="#742047"/>
+  <text x="180" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="39" font-weight="700" fill="#742047">WHIZ</text>
+  <text x="180" y="116" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#742047">COMICS #4</text>
+  <text x="180" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#742047">Reference cover</text>
+  <text x="180" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#742047">Visual reference only</text>
+</svg>

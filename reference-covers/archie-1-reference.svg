@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Archie #1 reference information card</title>
+  <desc id="desc">Local reference information artwork for Archie issue 1.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff1bf"/>
+      <stop offset="55%" stop-color="#ffb55c"/>
+      <stop offset="100%" stop-color="#7f2d1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1040" rx="38" fill="url(#bg)"/>
+  <rect x="28" y="28" width="664" height="984" rx="30" fill="none" stroke="rgba(86,30,17,0.18)"/>
+  <text x="64" y="118" fill="#5f2517" font-family="Arial, sans-serif" font-size="30" font-weight="700">ARCHIE</text>
+  <text x="592" y="118" fill="#7f2d1b" font-family="Arial, sans-serif" font-size="28" text-anchor="end">1942</text>
+  <text x="64" y="312" fill="#402012" font-family="Arial, sans-serif" font-size="124" font-weight="900">ARCHIE</text>
+  <rect x="64" y="430" width="196" height="62" rx="14" fill="rgba(95,37,23,0.12)"/>
+  <text x="162" y="471" fill="#402012" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">ISSUE #1</text>
+  <text x="64" y="866" fill="#402012" font-family="Arial, sans-serif" font-size="32" font-weight="700">REFERENCE INFORMATION</text>
+  <text x="64" y="914" fill="#5f2517" font-family="Arial, sans-serif" font-size="24">Local only / Add your cover photo when ready</text>
+</svg>

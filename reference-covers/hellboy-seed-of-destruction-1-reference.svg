@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Hellboy Seed of Destruction #1 reference information card</title>
+  <desc id="desc">Local reference information artwork for Hellboy Seed of Destruction issue 1.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0e0dd"/>
+      <stop offset="56%" stop-color="#c96356"/>
+      <stop offset="100%" stop-color="#3c1d24"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1040" rx="38" fill="url(#bg)"/>
+  <rect x="28" y="28" width="664" height="984" rx="30" fill="none" stroke="rgba(63,29,36,0.18)"/>
+  <text x="64" y="118" fill="#3c1d24" font-family="Arial, sans-serif" font-size="30" font-weight="700">DARK HORSE</text>
+  <text x="592" y="118" fill="#5b2d37" font-family="Arial, sans-serif" font-size="28" text-anchor="end">1994</text>
+  <text x="64" y="288" fill="#271319" font-family="Arial, sans-serif" font-size="88" font-weight="900">HELLBOY</text>
+  <text x="64" y="360" fill="#271319" font-family="Arial, sans-serif" font-size="52" font-weight="900">SEED OF DESTRUCTION</text>
+  <rect x="64" y="444" width="196" height="62" rx="14" fill="rgba(63,29,36,0.12)"/>
+  <text x="162" y="485" fill="#271319" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">ISSUE #1</text>
+  <text x="64" y="866" fill="#271319" font-family="Arial, sans-serif" font-size="32" font-weight="700">REFERENCE INFORMATION</text>
+  <text x="64" y="914" fill="#3c1d24" font-family="Arial, sans-serif" font-size="24">Local only / Add your cover photo when ready</text>
+</svg>

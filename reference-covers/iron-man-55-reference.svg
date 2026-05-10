@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1040" role="img" aria-labelledby="title desc">
+  <title id="title">Iron Man #55 reference information card</title>
+  <desc id="desc">Local reference information artwork for Iron Man issue 55.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0b342"/>
+      <stop offset="56%" stop-color="#8f232a"/>
+      <stop offset="100%" stop-color="#241616"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1040" rx="38" fill="url(#bg)"/>
+  <rect x="28" y="28" width="664" height="984" rx="30" fill="none" stroke="rgba(255,255,255,0.16)"/>
+  <text x="64" y="118" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">MARVEL</text>
+  <text x="592" y="118" fill="#fff0d2" font-family="Arial, sans-serif" font-size="28" text-anchor="end">1973</text>
+  <text x="64" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="92" font-weight="900">IRON MAN</text>
+  <rect x="64" y="438" width="214" height="62" rx="14" fill="rgba(255,255,255,0.13)"/>
+  <text x="171" y="479" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">ISSUE #55</text>
+  <text x="64" y="866" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">REFERENCE INFORMATION</text>
+  <text x="64" y="914" fill="#fff1dc" font-family="Arial, sans-serif" font-size="24">Local only / Add your cover photo when ready</text>
+</svg>

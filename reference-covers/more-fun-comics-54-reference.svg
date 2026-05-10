@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">More Fun Comics #54 reference cover preview</title>
+  <desc id="desc">Local visual reference asset only. Not evidence, proof, authentication, grading, or ownership.</desc>
+  <rect width="360" height="520" rx="26" fill="#183b61"/>
+  <rect x="24" y="24" width="312" height="472" rx="22" fill="#e9f7ff"/>
+  <circle cx="180" cy="245" r="92" fill="#79c7e3"/>
+  <path d="M115 245c36-58 94-58 130 0-38-22-92-22-130 0z" fill="#183b61"/>
+  <text x="180" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="33" font-weight="700" fill="#183b61">MORE FUN</text>
+  <text x="180" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="27" font-weight="700" fill="#183b61">COMICS #54</text>
+  <text x="180" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#183b61">Reference cover</text>
+  <text x="180" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#183b61">Visual reference only</text>
+</svg>

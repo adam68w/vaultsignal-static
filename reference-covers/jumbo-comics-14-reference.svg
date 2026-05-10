@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">Jumbo Comics #14 reference cover preview</title>
+  <desc id="desc">Local visual reference asset only. Not evidence, proof, authentication, grading, or ownership.</desc>
+  <rect width="360" height="520" rx="26" fill="#173a35"/>
+  <rect x="24" y="24" width="312" height="472" rx="22" fill="#d6f0cf"/>
+  <circle cx="180" cy="250" r="98" fill="#4a8f5b"/>
+  <path d="M108 298c20-92 124-92 144 0-48-36-96-36-144 0z" fill="#173a35"/>
+  <text x="180" y="82" text-anchor="middle" font-family="Georgia, serif" font-size="39" font-weight="700" fill="#173a35">JUMBO</text>
+  <text x="180" y="118" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#173a35">COMICS #14</text>
+  <text x="180" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#173a35">Reference cover</text>
+  <text x="180" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#173a35">Visual reference only</text>
+</svg>
