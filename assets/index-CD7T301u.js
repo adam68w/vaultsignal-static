@@ -941,7 +941,7 @@
   </section>`}function nS({backupStatus:e="",backupError:t="",backupReport:r=null,savedComicsCount:a=0,compact:i=!1}={}){const o=r&&typeof r=="object"?{label:g(r.label),title:g(r.title),summary:g(r.summary),actionLabel:g(r.actionLabel),actionHandler:g(r.actionHandler),labels:Array.isArray(r.labels)?r.labels.map(g).filter(Boolean):[],notice:g(r.notice),lines:Array.isArray(r.lines)?r.lines.map(g).filter(Boolean):[],followUp:r.followUp&&typeof r.followUp=="object"?{title:g(r.followUp.title),summary:g(r.followUp.summary),reminder:g(r.followUp.reminder),labels:Array.isArray(r.followUp.labels)?r.followUp.labels.map(g).filter(Boolean):[],actions:Array.isArray(r.followUp.actions)?r.followUp.actions.map(s=>{const c=s&&typeof s=="object"?s:{},_=g(c.label),l=g(c.handler);return!_||!l?null:{label:_,handler:l}}).filter(Boolean):[]}:null}:null,n=g(e)&&(!o||g(e)!==o.summary);return`<div class="comic-vault-backup-controls${i?" compact":""}">
     <div>
       <p class="eyebrow">Local backup file</p>
-      <p class="small">Export a Local Comic Vault backup with a Backup Manifest. Import it later to see a Restore Report on this device.</p>
+      <p class="small">Export Comic Vault to prepare a portable evidence-state packet with a Backup Manifest. Import it later to review the Restore Report on this device.</p>
       <p class="small">This backup stays under your control.</p>
       <p class="small">Records saved in this mode are stored in this browser. Export a backup to keep your records.</p>
       ${Number(a||0)>0?'<p class="small">Local backup recommended. Back up your Comic Vault to keep a copy under your control.</p>':""}
@@ -1057,6 +1057,7 @@
       ${me("Start with one photo","info")}
     </div>
     <p class="small">Scan your first comic, add one cover photo, confirm a possible match, and save it to My Comics on this device.</p>
+    <p class="small">Everything stays local to this browser until you export a backup. Review Queue, Next step, and Add evidence checklist appear after you save a record.</p>
     <div class="route-actions">
       ${$t("Scan your first comic","/scanner","primary")}
       ${$t("Add Cover Photo","/scanner")}
@@ -1168,7 +1169,8 @@
           <p class="eyebrow">Comic Vault</p>
           <h2>My Comics</h2>
           <div class="inventory-legacy-heading" aria-hidden="true"><h2>Comic Inventory</h2></div>
-          <p class="lead">Scan and organize your comics. Add one cover photo, find a possible match, and save books to your local collection.</p>
+          <p class="lead">Scan and organize your comics. Comic Vault keeps saved records in this browser until you export a portable evidence-state packet.</p>
+          <p class="small">Start with one cover photo, then use Records needing attention, Next step, and Add evidence checklist to see what to review next. Public proof, FMV, and checkout stay locked.</p>
           <p class="inventory-legacy-heading" aria-hidden="true">Browse read-only comic records</p>
           <div class="status-pill-stack">
             ${A.active===!0?me(Qe?"Records being prepared":"Preview shelf","warn"):me("Comic shelf ready","good")}
@@ -2703,13 +2705,15 @@ ${OL(t)}`}function Nc(e={}){const t=po(e.playbook_type).toUpperCase();if(_h.incl
           <div class="product-shell-hero-copy">
             <p class="eyebrow">VaultSignal</p>
             <h2>Choose how you want to use your comic records.</h2>
-            <p class="lead">VaultSignal uses one review engine underneath, but the public site now starts with clear front doors for collectors, dealers, and controlled record packets.</p>
+            <p class="lead">VaultSignal is a local-first evidence workflow for comics. Comic records, review status, and source context stay on this device unless you export a portable evidence-state packet.</p>
+            <p class="small">The GitHub Pages surface is the safe static day-one path. Public proof, FMV, and checkout stay locked.</p>
           </div>
           <div class="product-shell-hero-side">
             <article class="feature-card product-status-card">
               <p class="eyebrow">Start here</p>
               <h3>Start with a cover photo</h3>
               <p class="small">Scan a comic, review the suggested match, and save it to My Comics on this device.</p>
+              <p class="small">Everything saved in Comic Vault stays browser-local until you export a portable evidence-state packet.</p>
               <div class="route-actions">
                 ${ba("Scan Comic","/scanner","primary")}
                 ${ba("Open Comic Vault","/comic-vault")}
@@ -2719,7 +2723,7 @@ ${OL(t)}`}function Nc(e={}){const t=po(e.playbook_type).toUpperCase();if(_h.incl
         </section>
 
         <section class="product-action-grid intent-front-door-grid">
-          ${_c({eyebrow:"Collector",title:"Comic Vault",description:"Scan and organize your comics.",buttonLabel:"Open Comic Vault",path:"/comic-vault"})}
+          ${_c({eyebrow:"Collector",title:"Comic Vault",description:"Scan and organize your comics. Keep each saved record local to this browser until you export it.",buttonLabel:"Open Comic Vault",path:"/comic-vault"})}
           ${_c({eyebrow:"Dealer",title:"Dealer Desk",description:"Clean up inventory and prepare books for sale.",buttonLabel:"Open Dealer Desk",path:"/dealer-desk"})}
           ${_c({eyebrow:"Controlled record",title:"Proof Packet",description:"Create controlled records when review thresholds are met.",buttonLabel:"View Proof Packet",path:"/proof-packet"})}
         </section>
@@ -3106,7 +3110,7 @@ Images remain user-controlled. VaultSignal has not uploaded or permanently store
         <b>${N((r==null?void 0:r.label)||`Level ${t.level}`)}</b>
         <span>${N(t.status||(r==null?void 0:r.defaultStatus)||"REVIEW_REQUIRED")}</span>
         <span>${N(t.note||(r==null?void 0:r.description)||"No lifecycle note available.")}</span>
-      </div>`}).join("")}function Ig(e,t="None recorded"){return!Array.isArray(e)||!e.length?`<p class="small">${N(t)}</p>`:`<ul class="list">${e.map(r=>`<li>${N(String(r))}</li>`).join("")}</ul>`}function ci(e,t,r=""){const a=Iv(t);return`<a class="${r}" href="${N(a)}" onclick="event.preventDefault(); nav('${EE(t)}')">${N(e)}</a>`}function pt(e,t,r=""){return`<button class="${r}" onclick="nav('${EE(t)}')">${N(e)}</button>`}function op(e,t,r=""){return`<a class="button-link ${r}" href="${N(t)}">${N(e)}</a>`}function Og(e){return`/review/${encodeURIComponent(e)}`}function Cg(e){return`/evidence/${encodeURIComponent(e)}`}function Ng(e){return`/identity-review/${encodeURIComponent(e)}`}function Tg(e){return`/audit/${encodeURIComponent(e)}`}function fE(e){return`/verify/${encodeURIComponent(e)}`}function np(e,t=12){const r=m(e);return r?r.length>t?`${r.slice(0,t)}...`:r:"not generated"}function IY(e={}){const t=String(e.authentication_evidence_state||"").toUpperCase(),r=String(e.signature_claim_state||"").toUpperCase();return t==="THIRD_PARTY_AUTHENTICATED"?fU:t==="WITNESSED"?mU:r==="SIGNATURE_REVIEW_REQUIRED"||r==="SIGNATURE_DISPUTED"?"Signature evidence requires review before it can be presented as buyer-safe support.":EU}function OY(){const e=Sg(),t=bE(),r=E.route===V.runtimeStatus,a=E.route===V.collector||E.route===V.controlledProof,i=E.route===V.scanner,o=E.route===V.inventory||E.route===V.liveRecords||E.route===V.comicVault,n=E.route===V.dealerDesk,s=E.route===V.proofPacket,c=e.runtimeMode===St?"Live feed ready":e.runtimeMode===bo?"Live feed empty":e.runtimeMode===wr?"Syncing live feed":"Live feed error",_=e.runtimeMode===St?"good":e.runtimeMode===wr?"info":"warn";let l="Comic evidence review",u="Organize comic records, source context, and review status before claims become public.";r?(l="Runtime Status",u="Production live, controlled review active, and authority locks preserved."):i?(l="Scan Comic",u="Add one cover photo and find possible comic matches."):o?(l="Comic Vault",u="Scan and organize your comics."):n?(l="Dealer Desk",u="Clean up inventory and prepare books for sale."):(s||a)&&(l="Proof Packet",u="Controlled record packets stay locked until review thresholds are met.");const f=[ci("Home",V.landing),ci("Comic Vault",V.comicVault),ci("Scan Comic",V.scanner),ci("Dealer Desk",V.dealerDesk),ci("Proof Packet",V.proofPacket),ci("Legal",V.legal)].join(""),d=e.recordCount>0?"Review active":"Review pending",p=t.readiness_marker==="PUBLIC_READ_ONLY_PREVIEW_READY"?"good":t.readiness_marker==="PUBLIC_READ_ONLY_PREVIEW_CANDIDATE"?"info":"warn",v=i?"Scan another comic":"Scan Comic",R=V.scanner,b=r?`${Ft(c,_)}${Ft("Authority locked","warn")}${Ft(t.title,p)}`:`${Ft(d,e.recordCount>0?"good":_)}${Ft("Authority locked","warn")}`;return`<header class="site-header shell ${r?"site-header-executive":""}">
+      </div>`}).join("")}function Ig(e,t="None recorded"){return!Array.isArray(e)||!e.length?`<p class="small">${N(t)}</p>`:`<ul class="list">${e.map(r=>`<li>${N(String(r))}</li>`).join("")}</ul>`}function ci(e,t,r=""){const a=Iv(t);return`<a class="${r}" href="${N(a)}" onclick="event.preventDefault(); nav('${EE(t)}')">${N(e)}</a>`}function pt(e,t,r=""){return`<button class="${r}" onclick="nav('${EE(t)}')">${N(e)}</button>`}function op(e,t,r=""){return`<a class="button-link ${r}" href="${N(t)}">${N(e)}</a>`}function Og(e){return`/review/${encodeURIComponent(e)}`}function Cg(e){return`/evidence/${encodeURIComponent(e)}`}function Ng(e){return`/identity-review/${encodeURIComponent(e)}`}function Tg(e){return`/audit/${encodeURIComponent(e)}`}function fE(e){return`/verify/${encodeURIComponent(e)}`}function np(e,t=12){const r=m(e);return r?r.length>t?`${r.slice(0,t)}...`:r:"not generated"}function IY(e={}){const t=String(e.authentication_evidence_state||"").toUpperCase(),r=String(e.signature_claim_state||"").toUpperCase();return t==="THIRD_PARTY_AUTHENTICATED"?fU:t==="WITNESSED"?mU:r==="SIGNATURE_REVIEW_REQUIRED"||r==="SIGNATURE_DISPUTED"?"Signature evidence requires review before it can be presented as buyer-safe support.":EU}function OY(){const e=Sg(),t=bE(),r=E.route===V.runtimeStatus,a=E.route===V.collector||E.route===V.controlledProof,i=E.route===V.scanner,o=E.route===V.inventory||E.route===V.liveRecords||E.route===V.comicVault,n=E.route===V.dealerDesk,s=E.route===V.proofPacket,c=e.runtimeMode===St?"Live feed ready":e.runtimeMode===bo?"Live feed empty":e.runtimeMode===wr?"Syncing live feed":"Live feed error",_=e.runtimeMode===St?"good":e.runtimeMode===wr?"info":"warn";let l="Comic evidence review",u="Local-first evidence workflow for comic records, truth-state history, and portable evidence-state packets.";r?(l="Runtime Status",u="Production live, controlled review active, and authority locks preserved."):i?(l="Scan Comic",u="Add one cover photo and find possible comic matches."):o?(l="Comic Vault",u="Local-first evidence workflow for saved comic records."):n?(l="Dealer Desk",u="Clean up inventory and prepare books for sale."):(s||a)&&(l="Proof Packet",u="Controlled record packets stay locked until review thresholds are met.");const f=[ci("Home",V.landing),ci("Comic Vault",V.comicVault),ci("Scan Comic",V.scanner),ci("Dealer Desk",V.dealerDesk),ci("Proof Packet",V.proofPacket),ci("Legal",V.legal)].join(""),d=e.recordCount>0?"Review active":"Review pending",p=t.readiness_marker==="PUBLIC_READ_ONLY_PREVIEW_READY"?"good":t.readiness_marker==="PUBLIC_READ_ONLY_PREVIEW_CANDIDATE"?"info":"warn",v=i?"Scan another comic":"Scan Comic",R=V.scanner,b=r?`${Ft(c,_)}${Ft("Authority locked","warn")}${Ft(t.title,p)}`:`${Ft(d,e.recordCount>0?"good":_)}${Ft("Authority locked","warn")}`;return`<header class="site-header shell ${r?"site-header-executive":""}">
     <div class="site-header-top">
       <div class="brand site-header-brand">
         <div class="brand-mark">VS</div>
@@ -3132,7 +3136,7 @@ Images remain user-controlled. VaultSignal has not uploaded or permanently store
       </div>
     </div>
   </header>`}function CY(){return`<footer class="footer-card">
-    <p>VaultSignal helps collectors and dealers organize comic evidence for review. Public proof, FMV, checkout, grading/certification, and RWA remain locked.</p>
+    <p>VaultSignal is a local-first comic evidence workflow. It helps organize records, truth-state history, and portable evidence-state packets. Public proof, FMV, checkout, grading/certification, and RWA remain locked.</p>
     <p class="small">${N(ys)}</p>
     <p class="small">${N(Gh)}</p>
     <div class="route-actions">
